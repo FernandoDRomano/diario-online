@@ -1,0 +1,256 @@
+/* PARA CAMBIAR EL ESTILO DE LA BARRA DE NAVEGACIÓN */
+.navbar{
+  background-color: #0d47a1!important;
+  height: 80px;
+}
+
+.navbar-brand{
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  height: 65px;
+}
+
+.nav-item a{
+  color: white!important;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 19px;
+}
+
+#dropdown-menu-navbar{
+  background-color: #0d47a1;
+  color: black!important;
+}
+
+.dropdown-item{
+  text-align: center;
+}
+
+/* FIN DEL ESTILO DE LA BARRA DE NAVEGACION */
+
+/* PARA EL FOOTER*/
+
+/*Lo primero, todo el cuerpo que ocupe el 100%*/
+html, body {
+   height: 100%;
+}
+
+/*Lo segundo, el container, con algura mínima del 100% y un margen inferior negativo igual al alto que queramos darle al pie*/
+#container {
+   min-height: 100%;
+   margin-bottom: -160px;
+   position: relative;
+}
+
+/*Lo tercero, el pie con la altura deseada (igual al margen negativo de antes)*/
+#footer {
+   height: 160px;
+   position: relative;
+   background-color: #0d47a1;
+}
+
+/*Y terminamos con el clear, que ha de ser tan alto como el pie y "limpiar" todos los floats*/
+.clear{
+   height: 160px;
+   clear: both;
+}
+
+/* FIN DEL FOOTER */
+
+.centrar{
+  padding-top: 35px;
+}
+
+.derecha{
+  position: relative;
+  float: right;
+}
+
+.subrayar{
+  text-decoration: underline;
+}
+
+.equipo-desarrollo{
+  color: white;
+}
+
+.margen-abajo{
+  padding-bottom: 30px;
+}
+
+.panel-title{
+  background-color: #0068FF;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.tamaño{
+  height: 50px;
+}
+
+.separador{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imagen_perfil{
+  height: 55px;
+  width: 55px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.btn-danger{
+  background-color: #f44336;
+}
+
+.caja-imagen{
+  border: 1px solid black;
+}
+
+.caja-imagen img{
+  background-size: cover;
+  max-width: 100%;
+  max-height: 496px;
+  display:block;
+  margin:auto;
+}
+
+.imagen-tamaño{
+  height: 600px;
+  width: 1100px;
+}
+
+.titulo-noticia{
+  color: #212121;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.subTitulo-noticia{
+  color: #616161;
+}
+
+.cuerpo-noticia{
+  margin-bottom: 20px;
+}
+
+.caja-autor{
+  background-color: #EEEEEF;
+  border: 1px solid grey;
+  height: 120px;
+}
+
+.imagen-noticia{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px 0px;
+}
+
+.nombre-autor{
+  font-weight: bold;
+  color: black;
+  font-size: 22px;
+  padding-top: 50px;
+  margin-left: -45px;
+}
+
+.div-etiquetas{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.etiqueta{
+  margin:0px 10px;
+}
+
+.margen{
+  margin-bottom: 5px;
+}
+
+.espacio{
+  margin: 20px;
+}
+
+.espacio-abajo{
+  margin-bottom: 20px;
+}
+
+.espacio-arriba{
+  margin-top: 20px;
+}
+
+.caja{
+  border: 1px solid black;
+}
+
+.card-header{
+  background-color: #1565c0;
+  color: white;
+}
+
+.card-header-titulo{
+  background-color: #1565c0;
+  color: white;
+  height: 40px;
+}
+
+.card-remarcado{
+  border: 1px solid black;
+}
+
+#imagen-portada{
+  height: 450px;
+}
+
+.menu{
+  margin-bottom: 25px;
+}
+
+.caja-etiqueta{
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+}
+
+.badge-info{
+  font-size: 15px;
+  margin: 3px;
+}
+
+.texto-bold{
+  font-weight: bold;
+}
+
+.cabecera-tabla{
+  background-color: #1a237e;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-deck{
+  margin-bottom: 15px;
+}
+
+.div-filtrado{
+  height: 49px;
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* PARA QUITAR LOS EFECTOS A LOS ENLACES DE LAS NOTICIAS; */
+.enlace:link{ color: white; text-decoration: none}
+
+.enlace:hover{ color: white; text-decoration: none}
